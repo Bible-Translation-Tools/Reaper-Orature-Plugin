@@ -10,13 +10,17 @@ Reaper audio plugin for Orature
 3. Then click "New action" and choose "Load ReaScript". Select "ReaperOraturePlugin.lua" from the location where you saved it.  
    
 You may want to set the keyboard shortcut for the script,  
+
 Or you can use SWS/S&M Extension for Reaper (https://www.sws-extension.org/) to run the script automatically on project startup. Windows and MacOS only.  
+
 If you installed SWS/S&M Extension, go to Actions and select "Show Action List". Find "Script: ReaperOraturePlugin.lua", right click and "Copy selected action Command ID". Close. Then go to Extensions and select "Startup actions -> Set global startup action" and enter copied Command ID. That's it! When a project is loaded, the action will start automatically.  
 
 # Set audio plugin in Orature
 
 Open Orature. Go to Audio Plugins and select "New". Enter the name of the plugin (for example Reaper). As for executable, point to reaper-orature-plugin.jar and select "Record", "Edit" checkboxes of your choice.  
+
 Try to make a recording. Reaper application should start. If you configured SWS/S&M Extension, then media will be loaded onto track automatically. Otherwise, use predefined shortcut or run it manually by going to Action List  
+
 When you finish with recording/editing, save the project, confirm overwrite and close Reaper.  
 
 # Background and Problem Introduction
