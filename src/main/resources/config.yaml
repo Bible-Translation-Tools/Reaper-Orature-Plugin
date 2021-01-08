@@ -2,6 +2,9 @@
   executable:
     macos:
       - /Applications/reaper.app/Contents/MacOS/reaper
+      - /Applications/REAPER.app/Contents/MacOS/reaper
+      - /Applications/reaper64.app/Contents/MacOS/reaper
+      - /Applications/REAPER64.app/Contents/MacOS/reaper
     linux:
       - /usr/bin/reaper
       - /usr/local/bin/reaper
