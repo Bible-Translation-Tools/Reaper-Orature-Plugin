@@ -1,0 +1,14 @@
+---
+  executable:
+    macos:
+      - /Applications/reaper.app/Contents/MacOS/reaper
+    linux:
+      - /usr/bin/reaper
+      - /usr/local/bin/reaper
+      - /opt/REAPER/reaper
+      - /home/${user.name}/opt/REAPER/reaper
+    windows:
+      - C:\Program Files (x86)\REAPER\reaper.exe
+      - C:\Program Files\REAPER (x64)\reaper.exe
+      - C:\Users\${user.name}\AppData\Local\REAPER\reaper.exe
+      - C:\Users\${user.name}\AppData\Roaming\REAPER\reaper.exe
